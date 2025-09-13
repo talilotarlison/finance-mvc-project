@@ -1,0 +1,23 @@
+{
+  "name": "talilo/finance-mvc",
+  "description": "Projeto PHP Puro com SQLite utilizando padrão MVC.",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Talilo",
+      "email": "talilo@example.com",
+      "role": "Author"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "scripts": {
+    "start": "php -S localhost:8000 router.php"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
